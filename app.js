@@ -3,6 +3,6 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-app.use (body)
+app.use (bodyParser.json());
 
 app.listen(3000);
